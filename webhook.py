@@ -7,3 +7,5 @@ def webhook():
     if request.method == 'POST':
         print("Data received from Webhook is: ", request.json)
         return "Webhook received!"
+    else:
+        return "VIGNESH HEGE"
